@@ -50,7 +50,6 @@ return require('packer').startup(function(use)
 		}
 	}
 	use('github/copilot.vim')
-	use('Shopify/spin-hud')
 
 	use {
 		'lewis6991/gitsigns.nvim',
