@@ -28,6 +28,7 @@ require('mason-lspconfig').setup({
 	  'lua_ls',
 	  'texlab',
 	  'yamlls',
+    'gopls',
   },
   handlers = {
     lsp_zero.default_setup,
