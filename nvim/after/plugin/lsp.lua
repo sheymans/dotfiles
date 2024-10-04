@@ -18,17 +18,16 @@ end)
 require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {
-	  'tsserver',
+	  'ts_ls',
 	  'rust_analyzer',
 	  'bashls',
 	  'graphql',
 	  'marksman',
-	  'solargraph',
+    'solargraph',
 	  'sorbet',
 	  'lua_ls',
 	  'texlab',
 	  'yamlls',
-    'gopls',
   },
   handlers = {
     lsp_zero.default_setup,
