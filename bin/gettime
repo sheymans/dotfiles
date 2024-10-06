@@ -1,1 +1,5 @@
+#!/usr/bin/env zsh
+
+echo "PT: $(TZ='America/Los_Angeles' date '+%I:%M %p') | ET: $(TZ='America/New_York' date '+%I:%M %p') | UTC: $(TZ='UTC' date '+%H:%M')"
+
 
